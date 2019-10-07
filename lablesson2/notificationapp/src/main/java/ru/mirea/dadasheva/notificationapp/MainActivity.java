@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         // Create PendingIntent
-        Intent resultIntent = new Intent(MainActivity.this, MainActivity.class);
+        Intent resultIntent = new Intent(getApplicationContext(), MainActivity.class);
         PendingIntent resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         }
         // Create Notification
         NotificationCompat.Builder builder =
-                new NotificationCompat.Builder(MainActivity.this, MainActivity.CHANNEL_ID)
+                new NotificationCompat.Builder(getApplicationContext(), MainActivity.CHANNEL_ID)
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("Title")
                         .setContentText("Notification text for MIREA")

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LifecycleActivity/LifecycleActivity.iml" filepath="$PROJECT_DIR$/LifecycleActivity/LifecycleActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentfilter/intentfilter.iml" filepath="$PROJECT_DIR$/intentfilter/intentfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lablesson2.iml" filepath="$PROJECT_DIR$/lablesson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiactivity/multiactivity.iml" filepath="$PROJECT_DIR$/multiactivity/multiactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationapp/notificationapp.iml" filepath="$PROJECT_DIR$/notificationapp/notificationapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toastapp/toastapp.iml" filepath="$PROJECT_DIR$/toastapp/toastapp.iml" />
+    </modules>
+  </component>
+</project>
