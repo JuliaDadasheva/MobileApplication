@@ -40,4 +40,14 @@
         android:name="ru.mirea.dadasheva.mireaproject.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/brouserFragment"
+        android:name="ru.mirea.dadasheva.mireaproject.BrouserFragment"
+        android:label="fragment_brouser1"
+        tools:layout="@layout/fragment_brouser1" />
+    <fragment
+        android:id="@+id/calcFragment"
+        android:name="ru.mirea.dadasheva.mireaproject.CalcFragment"
+        android:label="fragment_calc"
+        tools:layout="@layout/fragment_calc" />
 </navigation>
