@@ -17,11 +17,7 @@
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="ru.mirea.dadasheva.mireaproject.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+
 
     <fragment
         android:id="@+id/nav_tools"
@@ -50,4 +46,10 @@
         android:name="ru.mirea.dadasheva.mireaproject.CalcFragment"
         android:label="fragment_calc"
         tools:layout="@layout/fragment_calc" />
+
+    <fragment
+        android:id="@+id/fragment_audio"
+        android:name="ru.mirea.dadasheva.mireaproject.Fragment_audio"
+        android:label="fragment_fragment_audio"
+        tools:layout="@layout/fragment_fragment_audio" />
 </navigation>

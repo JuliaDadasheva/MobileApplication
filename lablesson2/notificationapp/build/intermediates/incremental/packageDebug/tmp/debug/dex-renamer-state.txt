@@ -1,4 +1,4 @@
-#Mon Oct 07 21:39:44 MSK 2019
+#Wed Oct 23 22:25:46 MSK 2019
 base.0=C\:\\Users\\user\\AndroidStudioProjects\\lablesson1\\MobileApplication\\lablesson2\\notificationapp\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
