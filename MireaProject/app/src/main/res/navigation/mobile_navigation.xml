@@ -52,4 +52,14 @@
         android:name="ru.mirea.dadasheva.mireaproject.Fragment_audio"
         android:label="fragment_fragment_audio"
         tools:layout="@layout/fragment_fragment_audio" />
+    <fragment
+        android:id="@+id/fragment_camera"
+        android:name="ru.mirea.dadasheva.mireaproject.Fragment_camera"
+        android:label="fragment_fragment_camera"
+        tools:layout="@layout/fragment_fragment_camera" />
+    <fragment
+        android:id="@+id/micFragment"
+        android:name="ru.mirea.dadasheva.mireaproject.MicFragment"
+        android:label="fragment_mic"
+        tools:layout="@layout/fragment_mic" />
 </navigation>
